@@ -17,10 +17,16 @@ A curated collection of practical Linux automation scripts, system administratio
 ├── LICENSE
 ├── README.md
 └── mohrezCertBot/
-    ├── mohrezCertBot.sh        # اسکریپت اصلی صدور و پیکربندی خودکار SSL برای HAProxy و Nginx
-    ├── certs.lst.example       # نمونه فایل crt-list برای HAProxy
-    └── haproxy.cfg.example     # نمونه کانفیگ HAProxy سازگار با گواهی‌های تولید شده
+    ├── mohrezCertBot.sh          # اسکریپت اصلی صدور و پیکربندی خودکار SSL برای HAProxy و Nginx
+    ├── certs.lst                 # نگاشت دامنه‌ها و مسیر فایل‌های pem در HAProxy (ماسک‌شده با ***)
+    ├── haproxy.cfg               # فایل پیکربندی کامل HAProxy با ALPN و SSL (ماسک‌شده با ***)
+    ├── haproxy.cfgy              # نسخه کمکی/پیش‌نویس کانفیگ HAProxy
+    └── sample_cert_bundle.pem    # ساختار نمونه فایل تجمیع‌شده PEM برای HAProxy
 ```
+
+> [!NOTE]
+> **امنیت اطلاعات (Security & Privacy):** تمام آدرس‌های IP خصوصی، شناسه‌های سرور، نام‌های دامنه و کلیدهای رمزنگاری در فایل‌های پیکربندی با `***` جایگزین شده‌اند تا هیچ‌گونه اطلاعات محرمانه‌ای نشت پیدا نکند.
+
 
 ---
 

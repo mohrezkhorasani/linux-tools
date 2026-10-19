@@ -22,7 +22,7 @@ print_info() {
 # Function to display usage
 usage() {
     echo "Usage: $0 <domain>"
-    echo "Example: $0 vc2.hekmateislami.com"
+    echo "Example: $0 example.com"
     exit 1
 }
 

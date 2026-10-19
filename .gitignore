@@ -1,14 +1,11 @@
-# Sensitive SSL/TLS keys and certificates
-*.pem
+# Local private backups
+.private_backup/
+
+# Sensitive key files (never commit real private keys)
 *.key
-*.crt
 *.csr
 *.pfx
 *.p12
-
-# Working / Local environment configurations
-*.cfgy
-certs.lst
 
 # OS metadata
 .DS_Store
