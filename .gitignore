@@ -1,0 +1,23 @@
+# Sensitive SSL/TLS keys and certificates
+*.pem
+*.key
+*.crt
+*.csr
+*.pfx
+*.p12
+
+# Working / Local environment configurations
+*.cfgy
+certs.lst
+
+# OS metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

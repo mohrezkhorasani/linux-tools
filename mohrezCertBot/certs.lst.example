@@ -1,0 +1,4 @@
+# Example HAProxy crt-list file
+# Format: <path_to_pem> <domain_snis...>
+/etc/haproxy/example.com.pem example.com www.example.com
+/etc/haproxy/app.example.com.pem app.example.com
